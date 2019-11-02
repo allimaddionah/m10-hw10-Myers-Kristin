@@ -4,6 +4,9 @@ body {
     font-family: sans-serif;
     margin: auto;
     padding-top: 25px;
+    font-size: 25px;
+	  background-color: lightblue;
+
   }
 
 .hide {
@@ -12,4 +15,10 @@ body {
 .show {
   opacity: 1;
   transition: opacity 1s;
+}
+
+#container {
+  width: 50%;
+  background-color: #AE265C;
+  margin: 20px auto;
 }
